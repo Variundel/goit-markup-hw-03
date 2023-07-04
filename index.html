@@ -10,50 +10,64 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-navigation">
-        <a href="./index.html" class="header-logo link"
-          >Web<span class="header-logo-accent link">Studio</span>
-        </a>
-        <ul class="header-menu list">
-          <li class="header-list-item">
-            <a class="header-list-link link" href="./index.html"> Studio</a>
-          </li>
-          <li class="header-list-item">
-            <a class="header-list-link link" href="./portfolio.html">
-              Portfolio</a
-            >
-          </li>
-          <li class="header-list-item">
-            <a class="header-list-link link" href=""> Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="header-address">
-        <ul class="header-address-list list">
-          <li>
-            <a class="heade-address-item link" href="mailto:info@devstudio.com">
-              info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="heade-address-item link" href="tel:+110001111111">
-              +11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container container-header">
+        <nav class="header-navigation">
+          <a href="./index.html" class="header-logo link"
+            >Web<span class="header-logo-accent link">Studio</span>
+          </a>
+          <ul class="header-menu list">
+            <li class="header-list-item">
+              <a class="header-list-link link" href="./index.html"> Studio</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-list-link link" href="./portfolio.html">
+                Portfolio</a
+              >
+            </li>
+            <li class="header-list-item container-header">
+              <a class="header-list-link link" href=""> Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-address">
+          <ul class="header-address-list list">
+            <li>
+              <a
+                class="heade-address-item link"
+                href="mailto:info@devstudio.com"
+              >
+                info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="heade-address-item link" href="tel:+110001111111">
+                +11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
-      <section class="effect-back">
+      <section class="effect-back container">
         <h1 class="effect-headline">
           Effective Solutions <br />
           for Your Business
         </h1>
-        <button class="effect-btn" type="button">Order Service</button>
+        <div class="effect-btn-alligin">
+          <button class="effect-btn" type="button">Order Service</button>
+        </div>
       </section>
       <section>
         <h2 class="main-headline hide">Main principles</h2>

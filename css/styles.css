@@ -4,9 +4,27 @@ body{
     background-color: #FFFFFF;
 }
 
+.container{
+    width: 100%;
+    max-width: 1470px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 :root {
     --main-color: #434455;
     --main-background-color: #FFFFFF;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
 }
 
 .link {
@@ -21,7 +39,29 @@ body{
     opacity: 0;
 }
 
+/**----HEADER----**/
+
+.header {
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+
+.container-header {
+ display: flex;
+ align-items: center;
+}
+
+.header-navigation{
+display: flex;
+}
+
 .header-menu {
+    display: flex;
+    margin-left: 76px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    align-items: center;
+    gap: 40px;
 }
 
 .header-list-link {
@@ -34,6 +74,9 @@ body{
         letter-spacing: 0.02em;
 }
 
+.header-list-item{
+}
+
 .header-list-link:hover,
 .header-list-link:focus {
 color: #404bbf;
@@ -41,6 +84,16 @@ color: #404bbf;
 
 .header-address {
     font-style: normal;
+    display: flex;
+    margin-left: 332px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 156px;
+}
+
+.header-address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .heade-address-item:hover,
@@ -70,6 +123,9 @@ color: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-left: 156px;
+    margin-top: 25.5px;
+        margin-bottom: 25.5px;
 }
 
 .header-logo-accent {
@@ -83,6 +139,9 @@ color: var(--navyblue, #2E2F42);
 }
 /**----EFFECTIVE----**/
 
+.container-effect {
+}
+
 .effect-back {
     background: var(--navyblue, #2E2F42);
 }
@@ -94,6 +153,11 @@ color: var(--navyblue, #2E2F42);
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        padding-right: 472px;
+        padding-left: 472px;
+        padding-top: 188px;
+        padding-bottom: 292px;
+        align-items: center;
 }
 
 .effect-btn {
@@ -105,7 +169,13 @@ color: var(--navyblue, #2E2F42);
         letter-spacing: 0.04em;
             background: var(--iris, #4D5AE5);
 cursor: pointer;
+border-radius: 4px;
+display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
         }
+
 
 .effect-btn:hover,
 .effect-btn:focus {
