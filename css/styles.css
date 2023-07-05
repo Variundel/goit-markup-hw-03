@@ -38,15 +38,23 @@ img {
     list-style: none;
 }
 
-.hide {
-    opacity: 0;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /**----HEADER----**/
 
 .header {
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -62,7 +70,6 @@ align-items: center;
 
 .header-menu {
     display: flex;
-    margin-left: 76px;
     align-items: center;
     gap: 40px;
 }
@@ -78,7 +85,6 @@ align-items: center;
 }
 
 .header-list-item{
-    padding: 24px 0;
 }
 
 .header-list-link:hover,
@@ -89,17 +95,13 @@ color: #404bbf;
 .header-address {
     font-style: normal;
     display: flex;
-    margin-left: 250px;
-    margin-top: 24px;
-    margin-bottom: 24px;
     align-items: center;
-    padding: 24px 0;
+    margin-left: 333px;
 }
 
 .header-address-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .heade-address-item:hover,
@@ -129,7 +131,7 @@ color: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-        padding: 24px 0;
+        padding: 24px 0 24px;
         margin-right: 76px;
 }
 
@@ -195,14 +197,6 @@ color: var(--navyblue, #2E2F42);
 /**---MAIN---**/
 
 .main-headline {
-}
-
-.visually-hidden {
-position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
 }
 
 .main-head {
@@ -375,7 +369,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px;
 padding-top: 17.5px;
-padding-bottom: 100px;
 }
 
 /**---------------PAGE 2------------------**/
@@ -428,7 +421,6 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    padding-bottom: 120px;
 }
 
 .img-style {
@@ -457,6 +449,5 @@ letter-spacing: 0.02em;
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
-margin-bottom: 8px;
 }
 
