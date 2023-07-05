@@ -72,6 +72,7 @@ align-items: center;
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0 24px;
 }
 
 .header-list-link {
@@ -102,6 +103,7 @@ color: #404bbf;
 .header-address-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0 24px;
 }
 
 .heade-address-item:hover,
@@ -286,19 +288,7 @@ width: calc((100% - 72px) / 4);
     background-color: #F4F4FD;
 }
 
-.team-list-mark {
-    padding: 32px 16px;
-}
-
-.team-list-tom {
-padding: 32px 16px;
-}
-
-.team-list-camila {
-    padding: 32px 16px;
-}
-
-.team-list-daniel {
+.team-dscr {
     padding: 32px 16px;
 }
 
