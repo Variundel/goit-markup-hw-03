@@ -26,6 +26,10 @@ ul {
         padding-left: 0;
 }
 
+img {
+    display: block;
+}
+
 .link {
     text-decoration: none;
 }
@@ -43,6 +47,7 @@ ul {
 .header {
     padding-top: 25.5px;
     padding-bottom: 25.5px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header {
@@ -52,6 +57,8 @@ ul {
 
 .header-navigation{
 display: flex;
+align-items: center;
+padding: 24px 0 24px;
 }
 
 .header-menu {
@@ -84,9 +91,11 @@ color: #404bbf;
 .header-address {
     font-style: normal;
     display: flex;
-    margin-left: 332px;
+    margin-left: 250px;
     margin-top: 24px;
     margin-bottom: 24px;
+    align-items: center;
+padding: 24px 0 24px;
 }
 
 .header-address-list {
@@ -123,6 +132,7 @@ color: #4D5AE5;
     text-transform: uppercase;
     margin-top: 25.5px;
         margin-bottom: 25.5px;
+        margin-right: 76px;
 }
 
 .header-logo-accent {
@@ -141,6 +151,7 @@ color: var(--navyblue, #2E2F42);
 
 .effect-back {
     background: var(--navyblue, #2E2F42);
+    padding: 188px 0 188px;
 }
 
 .effect-headline {
@@ -151,13 +162,10 @@ color: var(--navyblue, #2E2F42);
         line-height: 1.07;
         letter-spacing: 0.02em;
         max-width: 496px;
+        margin-left: 316px;
         margin-bottom: 48px;
 }
 
-.effect-container {
-padding: 260px 316px 316px 292px;
-margin: 0 auto;
-}
 
 .effect-btn {
     color: var(--white, #FFF);
@@ -171,7 +179,13 @@ margin: 0 auto;
         border-radius: 4px;
     padding: 16px 32px 16px 32px;
     align-items: center;
-    margin-left: 168px;
+    margin-left: 168px
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    margin-left: 480px; 
+    margin-bottom: 188px;
         }
 
 .effect-btn:hover,
@@ -184,9 +198,19 @@ margin: 0 auto;
 .main-headline {
 }
 
+.visually-hidden {
+position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.main-head {
+padding: 120px 0;
+}
+
 .main-container {
-    margin-top: 120px;
-    margin-bottom: 120px;
 }
 
 .main-list {
@@ -200,7 +224,13 @@ margin: 0 auto;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
+
+.main-list-li {
+width: calc((100% - 72px) / 4);
+}
+ 
 
 .main-list-dscr {
     color: var(--slate, #434455);
@@ -211,6 +241,11 @@ margin: 0 auto;
 }
 
 /**---WHAT---**/
+
+.what-main {
+    padding-bottom: 120px;
+}
+
 
 .what-headline {
     color: var(--navyblue, #2E2F42);
@@ -234,6 +269,7 @@ margin: 0 auto;
 
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-headline {
@@ -245,7 +281,6 @@ margin: 0 auto;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        padding-top: 120px;
         margin-bottom: 72px;
 }
 
@@ -253,7 +288,26 @@ margin: 0 auto;
     background-color: #FFFFFF;
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
+    background-color: #F4F4FD;
+}
+
+.team-list-mark {
+    padding: 32px 16px;
+    background-color: #F4F4FD;
+}
+
+.team-list-tom {
+padding: 32px 16px;
+background-color: #F4F4FD;
+}
+
+.team-list-camila {
+    padding: 32px 16px;
+    background-color: #F4F4FD;
+}
+
+.team-list-daniel {
+    padding: 32px 16px;
     background-color: #F4F4FD;
 }
 
@@ -274,7 +328,8 @@ margin: 0 auto;
         line-height: 1.2;
         letter-spacing: 0.02em;
         padding-top: 32px;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
+        text-align: center;
 }
 
 .team-item {
@@ -285,12 +340,14 @@ margin: 0 auto;
         line-height: 1.5;
         letter-spacing: 0.02em;
         padding-bottom: 32px;
+        text-align: center;
 }
 
 /**---Footer---**/
 
 .footer-back {
     background: var(--navyblue, #2E2F42);
+    padding: 100px 0;
 }
 
 .footer {
@@ -301,7 +358,8 @@ margin: 0 auto;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-allign {
