@@ -95,12 +95,12 @@ color: #404bbf;
     margin-top: 24px;
     margin-bottom: 24px;
     align-items: center;
-padding: 24px 0 24px;
 }
 
 .header-address-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .heade-address-item:hover,
@@ -130,9 +130,7 @@ color: #4D5AE5;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-top: 25.5px;
-        margin-bottom: 25.5px;
-        margin-right: 76px;
+        padding: 24px 0;
 }
 
 .header-logo-accent {
@@ -180,12 +178,12 @@ color: var(--navyblue, #2E2F42);
     padding: 16px 32px 16px 32px;
     align-items: center;
     margin-left: 168px
-    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
     margin-left: 480px; 
     margin-bottom: 188px;
+    display: block;
         }
 
 .effect-btn:hover,
@@ -246,6 +244,8 @@ width: calc((100% - 72px) / 4);
     padding-bottom: 120px;
 }
 
+.what-list-item {}
+
 
 .what-headline {
     color: var(--navyblue, #2E2F42);
@@ -293,26 +293,22 @@ width: calc((100% - 72px) / 4);
 
 .team-list-mark {
     padding: 32px 16px;
-    background-color: #F4F4FD;
 }
 
 .team-list-tom {
 padding: 32px 16px;
-background-color: #F4F4FD;
 }
 
 .team-list-camila {
     padding: 32px 16px;
-    background-color: #F4F4FD;
 }
 
 .team-list-daniel {
     padding: 32px 16px;
-    background-color: #F4F4FD;
 }
 
 .team-list-color {
-    width: calc((100%-48px) / 3);
+    width: width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;   
             border-radius: 0px 0px 4px 4px;
             background: var(--white, #FFF);
@@ -327,9 +323,7 @@ background-color: #F4F4FD;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        padding-top: 32px;
         margin-bottom: 8px;
-        text-align: center;
 }
 
 .team-item {
@@ -339,7 +333,6 @@ background-color: #F4F4FD;
         font-family: Roboto;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding-bottom: 32px;
         text-align: center;
 }
 
@@ -362,9 +355,6 @@ background-color: #F4F4FD;
     margin-bottom: 16px;
 }
 
-.footer-allign {
-        padding-top: 101.5px;
-}
 
 .footer-logo-studio {
     color: #f4f4fd;
